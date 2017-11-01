@@ -1,0 +1,15 @@
+﻿
+=================================================================
+<Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+1-
+<Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" 
+Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+
+=================================================================
+<TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
+2-
+<TypeScriptExperimentalDecorators>true</TypeScriptExperimentalDecorators>
+<TypeScriptEmitDecoratorMetadata>True</TypeScriptEmitDecoratorMetadata>
+======================================================================
+3-Set ECMAScript Version ECMAScript6
+4-Set Module System CommonJS
